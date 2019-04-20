@@ -9,6 +9,6 @@
 にて表示する項目をトグルできます。
 
 こんな感じで↓
-![PHOTO](./SS.png) 
+![PHOTO](//github.com/sarw/noter-blog/blob/images/SS.jpg) 
 
 便利です。
