@@ -9,6 +9,6 @@
 にて表示する項目をトグルできます。
 
 こんな感じで↓
-![PHOTO](//raw.githubusercontent.com/sarw/noter-blog/images/SS.jpg) 
+![PHOTO](https://raw.githubusercontent.com/sarw/noter-blog/images/SS.jpg) 
 
 便利です。
