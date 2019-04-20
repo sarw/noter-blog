@@ -1,5 +1,5 @@
 # hugoで生成するサイトにGoogleAnalyticsのトラッキングIDを埋め込む
-<!-- date:2019-04-21 24:32 -->
+<!-- date:2018-06-11 09:32 -->
 
 ## 手順
 hugoのルートディレクトリにある`config.toml`にGoogleAnalyticsのトラッキングIDの行を追加する。
