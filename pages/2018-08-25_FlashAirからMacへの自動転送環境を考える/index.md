@@ -28,7 +28,7 @@
 - URL : [Card-Fi-Copy](https://www.edv-luehr.de/en/card-fi-copy-en)
 - 概要 : 今回試した中で唯一のシェアウェア。FlashAirだけではなくTranscend Wi-FI SDにも対応している。今回は無料のDEMO版をダウンロードした。DEMO版では転送される画像が 800 x 600px にリサイズされるようだ。使用期限などは特に表示されなかった。
 - 良い点 : 何と言っても指定フォルダ以下を再帰的に処理してくれる事。他にはインターバルや転送中のプレビューなども制御できる。設定画面のイメージは以下。
-   ![](https://images.cms.am/2018/card-fi-copy-demo-screenshot.png "Card-Fi-Copy-DEMO-screenshot")
+   ![](https://raw.githubusercontent.com/sarw/noter-blog/images/2018-08-25_card-fi-copy-screenshot.jpg "Card-Fi-Copy-DEMO-screenshot")
 - 希望する点 : サポートされているFlashAirはW-01 W-02 W-03まで。DEMO版ではW-04でも自動転送などは問題なく行えてはいるが、「FlashAirのバージョンが不明です」的なアラートは出てしまう。できれば早期にアップデートされる事を祈る。
 - まとめ : W-04では使用に多少の不安がある。自動転送は安定して動作していた。ただしDEMO版の800x600pxの話なので実サイズの転送速度ではどうかな？サブディレクトリに対応している希少な（唯一の？）ソフトウェアなので、是非開発を続けてもらいたい。
 
