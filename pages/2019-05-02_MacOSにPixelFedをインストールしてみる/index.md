@@ -18,10 +18,12 @@
 - MacOS High Sierra 10.13.6
 
 ## 手順
-1. Homebrewでphp7.2をインストール
+1. Homebrewでphpをインストールする。最新の7.3だとLaravel関係でエラーが出るので7.2にした。
 
 ``` bash
-brew install php72
+brew install php@7.2
+echo 'export PATH="/usr/local/opt/php@7.2/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/php@7.2/sbin:$PATH"' >> ~/.bash_profile
 ```
 
 1. Composerのインストール
@@ -36,18 +38,10 @@ brew install composer
 composer global require laravel/installer
 ```
 
-↓ここphp7.2にしたらいらないかも？
-1. LaravelプロジェクトにHorizonをインストール
-
-``` bash
-composer require laravel/horizon
-```
-
 1. pathを通す
 
 ``` bash
-vim ~/.bash_profile
-export PATH=$HOME/.composer/vendor/bin:$PATH
+echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bash_profile
 ```
 
 上記では `.bash_profile` にしているが、レンタルサーバなら `.bashhrc` か？
