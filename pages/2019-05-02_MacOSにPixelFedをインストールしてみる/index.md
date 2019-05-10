@@ -9,9 +9,7 @@
 そんな中、[pixelFed](https://pixelfed.org/)という写真共有SNSを見つけた。自分でインストールしなくとも、[すでに構築されているインスタンス](https://fediverse.network/pixelfed)に参加する事で使用感などを試す事が出来る。試して見たところ、かなりpathの使い心地に近いものを感じた。自分でもインスタンスを立ち上げてみようと思った次第である。
 
 ## スタートからゴールまで
-1. MacOSにてpixelFedのインストールと実行を試す
-1. レンタルサーバ（mixhost）にインストールを試みる
-1. mixhostが無理な場合、VPSにインストールを試みる
+MacOSにてpixelFedをインストールし実行する
 
 ## 環境
 - MacPro Early 2009
@@ -44,4 +42,15 @@ composer global require laravel/installer
 echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bash_profile
 ```
 
-上記では `.bash_profile` にしているが、レンタルサーバなら `.bashhrc` か？
+1. PixelFedのソースをダウンロードする
+
+``` bash
+cd ~/  #　もしくは任意の場所
+composer create-project --prefer-dist pixelfed/pixelfed pixelfed
+cd pixelfed
+```
+
+1. .envファイルの作成
+設定項目の詳細については [公式のConfiguration](https://docs.pixelfed.org/master/configuration.html)を参考にする
+
+1. 
