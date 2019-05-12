@@ -39,14 +39,15 @@ Mini Left Buttonの設定を下記画面と同じ状態にする。特に拘り�
 ![設定画面](https://raw.githubusercontent.com/sarw/noter-blog/images/2019-04-29_logicoolControlCenterSetting.png)
 
 ### HammerSpoonのインストール
-これは`Homebrew`で一発です。
+これはHomebrewで一発です。
 
 ``` bash
 brew cask install hammerspoon
 ```
+
 hammerspoonはbrew caskでインストールされるので、アプリケーションは`/Application`にインストールされている。いわゆる普通のアプリケーションフォルダにはいっているはず。
 
-### Hammerspoonのメニューから `Open Config` を開く
+### Hammerspoonのメニューから [Open Config] を開く
 アプリを起動すると、メニューバーにハンマーみたいなアイコンが出ているので、それをクリックして`Open Config`を選ぶ。
 
 ![メニュー画面](https://raw.githubusercontent.com/sarw/noter-blog/images/2019-04-29HammerSpoonOpenConfigMenu.png)
@@ -123,7 +124,7 @@ dragOtherToScroll:start()
 
 これをコピペしたら保存して閉じる。
 
-### Hammerspoonのメニューから `Reload config` を実行する
+### Hammerspoonにて設定ファイルを読み込ませる
 次にHammerSpoonのメニューをもう一度開き、`Reload Config`を実行
 
 ![設定画面](https://raw.githubusercontent.com/sarw/noter-blog/images/2019-04-29HammerSpoonOpenConfigMenu.png)
