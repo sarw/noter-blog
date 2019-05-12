@@ -47,7 +47,7 @@ brew cask install hammerspoon
 
 hammerspoonはbrew caskでインストールされるので、アプリケーションは`/Application`にインストールされている。いわゆる普通のアプリケーションフォルダにはいっているはず。
 
-### Hammerspoonのメニューから [Open Config] を開く
+### Hammerspoonのメニューから設定ファイルを開く
 アプリを起動すると、メニューバーにハンマーみたいなアイコンが出ているので、それをクリックして`Open Config`を選ぶ。
 
 ![メニュー画面](https://raw.githubusercontent.com/sarw/noter-blog/images/2019-04-29HammerSpoonOpenConfigMenu.png)
