@@ -53,4 +53,5 @@ cd pixelfed
 1. .envファイルの作成
 設定項目の詳細については [公式のConfiguration](https://docs.pixelfed.org/master/configuration.html)を参考にする
 
-1. 
+とりあえずここまで。
+続きはまた時間のある時に。。。
