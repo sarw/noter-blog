@@ -21,3 +21,6 @@ perlbrew install-cpanm
 
 ## cartonのインストール
 
+``` bash
+cpanm Carton
+```
