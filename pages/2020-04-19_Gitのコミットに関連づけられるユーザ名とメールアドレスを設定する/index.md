@@ -23,6 +23,15 @@ git config --global user.name
 git config --global user.email
 ```
 
+もしくは
+
+```
+git config --global --list
+```
+
+でも確認できる。
+
+
 ## 参考URI
 - [Git でのユーザ名を設定する](https://help.github.com/ja/github/using-git/setting-your-username-in-git#)
 - [コミットメールアドレスを設定する](https://help.github.com/ja/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
