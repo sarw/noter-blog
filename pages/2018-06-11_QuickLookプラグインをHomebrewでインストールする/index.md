@@ -23,7 +23,7 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 ## webpquicklookは古い？
 [webpquicklookプラグイン][2]は少なくとも４年以上更新されていない。比較的新しいプラグインとして[Quick Look Plugin for WebP Files][3]がある。しかしこのプラグインはHomeBrewではなく、自分でインストールする。（WebPなんて見られなくても問題ない？そうかも知れないね）
 
-## hetimazipqlは後悔が停止された？
+## hetimazipqlは公開が停止された？
 サイトにも繋がらなくなっていたため、代わりに[betterzip][4]を導入することにした
 
 [1]: https://support.apple.com/ja-jp/guide/mac-help/mh14119/mac
