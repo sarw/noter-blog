@@ -1,6 +1,9 @@
 # MacOS High Sierra環境にてLogicool Trackman Marble TM-150rを使用したスクロール環境を作る
 <!-- date:2019-04-25 11:43:35 -->
 
+## 2020.04.23 追記
+- [Logicool Control Center for Macintosh® OS X](https://support.logicool.co.jp/ja_jp/software/logitech-control-center-for-macintosh-os-x) をダウンロードする際には必ず3.9.9にすること。3.9.10以降のバージョンではTM-150rを認識しなくなる（悲
+
 ## はじめに
 普段から愛用している[ロジクールのトラックマン マーブル TM-150r](https://www.logicool.co.jp/ja-jp/product/trackman?crid=7)は動きもスムーズで尚且つクリックも自然な力で行うことができ、操作に全く不満がない。スクロールホイールが無いという点だけが残念であるが、今まではKarabinerを使用してスクロール環境を構築していたた。こうなると逆にスクロールホイールなんてのは邪魔な存在となり、デザイン的にも実用的にもまさに隙のない状態だった。
 
