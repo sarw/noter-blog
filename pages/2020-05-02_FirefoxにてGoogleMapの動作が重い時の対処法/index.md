@@ -17,7 +17,7 @@
 
 そんな訳でまずはGoogleのヘルプセンターを調べてみると以下のページに3Dと2Dを切り替えできることがわかる。
 
- (ウェブ上で利用できる、その他のバージョンの Google マップ)[https://support.google.com/maps/answer/3031966?hl=ja] 
+ [ウェブ上で利用できる、その他のバージョンの Google マップ](https://support.google.com/maps/answer/3031966?hl=ja)
 
  2Dモードで開くにはURLの末尾に `?force=canvas` を付ければ良いとのこと。
  逆に言うと付けないと3Dモードになってしまう。面倒・・・
